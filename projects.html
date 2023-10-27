@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link href="projectStyles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -9,23 +11,55 @@
     <title>Projects</title>
 </head>
 <body>
-    <div class="header">
-        <h1>Projects</h1>
+    <nav class="navbar navbar-expand-lg" style="background-color: #111116;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white;">[Logo]</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="projects.html"  style="color: white;">Projects</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="socials.html"  style="color: white;">Socials</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row align-items-center justify-content-center" style="background-color:#282834">
+        <div class="col-sm-2">
+            <h1 class="pt-5 pb-5" style="color:white;">Projects</h1>
+        </div>
     </div>
-    <div class="gallery">
-        <a href="survey.html">
-        <div class="p1">
-            <div class="bg1"></div>
-            <div class="caption"><h1>CS Survey</h1></div>
-        </div>
-        </a>
 
-        <a href="index.html">
-        <div class="p2">
-            <div class="bg2"></div>
-            <div class="caption"><h1>Portfolio</h1></div>
+    <div class="row justify-content-between p-xl-5">
+        <div class="col-sm-5">
+        <figure class="figure w-100 p-3">
+            <a href="https://adrianbasukii.github.io/HCI-Assignment-2/"><img style="width:40vw; height:50vw" src="https://cdn.discordapp.com/attachments/845525310221189151/1161536787118825523/image.png?ex=6538a86e&is=6526336e&hm=ff83642eb97f32f8d96b94f22aeda5cec49e97e1008c8040db3d4282beb6e9e3&" class="figure-img img-fluid rounded" ></a>
+            <figcaption class="h1">Survey</figcaption>
+        </figure>
         </div>
-        </a>
+        
+        <div class="col-sm-5">
+        <figure class="figure w-100 p-3">
+            <a href="index.html"><img style="width:40vw; height:50vw" src="https://cdn.discordapp.com/attachments/845525310221189151/1161538235806265354/image.png?ex=6538a9c7&is=652634c7&hm=45c82b11e653933589839cd791a275faf1486c114a05e845ea6402d8b912e721&" class="figure-img img-fluid rounded"></a>
+            <figcaption class="h1">Portfolio</figcaption>
+        </figure>
+        </div>
+    </div>
+
+    <div class="mt-5 p-4" style="background-color: #111116">
+        <div>
+        <h3 style="color: white;">- Contact Info -</h3>
+        <p style="color: white;">adriannugrohobasuki@gmail.com</p>
+        <p style="color: white;">+62 123456789</p>
+        </div>
     </div>
 </body>
 </html>

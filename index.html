@@ -8,68 +8,89 @@
     <title>HCI Assignment 5</title>
 </head>
 <body>
-        <div class="row" style="background-color: #111116;">
-        <div class="w-25 p-3"><a href="socials.html" style="color: white;">Socials</a></div>
-        <div class="w-25 p-3"><a href="projects.html" style="color: white;">Projects</a></div>
-        <div class="w-25 p-3"><a href="#contact-info" style="color: white;">Contacts</a></div>
-        </div>
-    <div class="row align-items-center justify-content-md-center" style="background-color:#282834">
-            <div class="col-sm-3">
-                <img class="w-75 p-3" src="https://cdn.discordapp.com/attachments/1152050348085739681/1161529380506443806/image.png?ex=6538a188&is=65262c88&hm=4ddff64dde8230d158e8087f854dd3aff23660c88b243844adaa23a2748235d3&">
+        <nav class="navbar navbar-expand-lg" style="background-color: #111116;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color: white;">[Logo]</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="projects.html"  style="color: white;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="socials.html"  style="color: white;">Socials</a>
+                    </li>
+                </ul>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <h1 style="color:white">Adrian<span style="color:#ffb71d"> Basuki</span></h1>
-                <h3 class="id" style="color:white">2702298210</h3>
+        </nav>
+    <div class="row align-items-center justify-content-center" style="background-color:#282834">
+            <div class="col-sm-2">
+                <img class="img-fluid" src="https://cdn.discordapp.com/attachments/1152050348085739681/1161529380506443806/image.png?ex=6538a188&is=65262c88&hm=4ddff64dde8230d158e8087f854dd3aff23660c88b243844adaa23a2748235d3&">
+            </div>
+            <div class="col-sm-2">
+                <h1 style="color:white;">Adrian<span style="color:#ffb71d" class="h1"> Basuki</span></h1>
+                <h3 style="color:white">2702298210</h3>
             </div>
     </div>
-    <div class="row justify-content-md-center mt-5">
+    <div class="row justify-content-md-center mt-5 p-md-3">
         <div class="col-sm-7">
             <h1>About me</h1>
             <hr class="w-50 p-3">
-            <p>Hi, I'm Adrian Basuki. I'm a student in Binus International currently taking Computer Science in Binus International University. I was born in Jakarta on the 26th of May 2005. I am able to fluently speak 2 languages which are Indonesian language and English language. </p>
+            <p class="w-75 p-3">Hi, I'm Adrian Basuki. I'm a student in Binus International currently taking Computer Science in Binus International University. I was born in Jakarta on the 26th of May 2005. I am able to fluently speak 2 languages which are Indonesian language and English language. </p>
+            <div class="mt-5">
             <h1>Hobbies</h1>
             <hr class="w-50 p-3">
-            <div id="hobbies">
-            <div class="hobby" id="game">
-                <p>Gaming</p>
-            </div>
-            <div class="hobby" id="vedit">
-                <p>Video editing</p>
-            </div>
+            <figure class="figure w-25 p-3">
+                <img src="https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=612x612&w=0&k=20&c=E9xnbAZoBS5LlUX0q-zxT_3m6gEZpyB2k51_U4LLMNs=" class="figure-img img-fluid rounded" >
+                <figcaption class="figure-caption">Gaming</figcaption>
+            </figure>
+            <figure class="figure w-25 p-3">
+                <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmlkZW8lMjBlZGl0aW5nfGVufDB8fDB8fHww&w=1000&q=80" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">Video Editing</figcaption>
+            </figure>
             </div>
         </div>
 
         <div class="col-sm-3">
-            <h1 class="titles">Education</h1>
+            <h1>Education</h1>
             <hr class="w-50 p-3">
-            <a href="https://serpong.binus.sch.id/">
-            <div class="Edu">
-            <div class="hs"></div>
-            </a>
-            <p class="school">Binus School Serpong</p>
-            <a href="https://international.binus.ac.id/">
-            <div class="uni"></div>
-            </a>
-            <p class="school">Binus International</p>
-            </div>
+            <figure class="figure w-25 p-3">
+                <a href="https://serpong.binus.sch.id/"><img src="https://abtest.schoolofparenting.id/images/mitra-sekolah/logo/binus_school_serpong.png" class="figure-img img-fluid rounded" ></a>
+                <figcaption class="figure-caption">Binus School Serpong</figcaption>
+            </figure>
+            <figure class="figure w-25 p-3">
+                <a href="https://international.binus.ac.id/"><img src="https://i.pinimg.com/originals/7a/c5/a5/7ac5a5ce53db6e5dab08a84e5bf9d56c.png" class="figure-img img-fluid rounded"></a>
+                <figcaption class="figure-caption">Binus International</figcaption>
+            </figure>
+
             <h1 class="titles" id="skills">Skills</h1>
             <hr class="w-50 p-3">
-            <div id="plang">
-                <div class="plang" id="Py">
-                </div>
-                <div class="plang" id="CSS">
-                </div>
-                <div class="plang" id="HTML">
-                </div>
-            </div>
+            <figure class="figure w-25 p-3">
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">HTML</figcaption>
+            </figure>
+            <figure class="figure w-25 p-3">
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">CSS</figcaption>
+            </figure>
+            <figure class="figure w-25 p-3">
+                <img src="https://www.pngmart.com/files/23/Python-Logo-PNG-Pic.png" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">Python</figcaption>
+            </figure>
         </div>
 
     </div>
-    <div class="footer">
-        <div class="contact-info" id="contact-info">
-        <h3>- Contact Info -</h3>
-        <p>adriannugrohobasuki@gmail.com</p>
-        <p>+62 123456789</p>
+    <div class="mt-5 p-4" style="background-color: #111116;">
+        <div>
+        <h3 style="color: white;">- Contact Info -</h3>
+        <p style="color: white;">adriannugrohobasuki@gmail.com</p>
+        <p style="color: white;">+62 123456789</p>
         </div>
     </div>
 </body>
